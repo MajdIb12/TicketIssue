@@ -1,0 +1,13 @@
+## Ignore Visual Studio & .NET temporary build files
+bin/
+obj/
+.vs/
+⚡/.vs/
+*.user
+*.suo
+
+## Ignore Docker temp files
+.dockerignore
+
+## Ignore local development settings containing secrets (Good Practice!)
+**/appsettings.Development.json

@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+    <File Path="Dockerfile" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="TicketIssue.Api/TicketIssue.Api.csproj" />
+  <Project Path="TicketIssue.Domain/TicketIssue.Domain.csproj" />
+  <Project Path="TicketIssue.Infrastructure/TicketIssue.Infrastructure.csproj" />
+</Solution>
