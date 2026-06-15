@@ -159,8 +159,6 @@ public class TicketsController(
             modifications = await context.FareModifications
                 .Where(m => modificationIds.Contains(m.Id) && m.IsActive)
                 .ToListAsync();
-            if (!modifications.Any())
-                return NotFound("No active fare modifications found for the provided IDs.");
         }
 
         try
